@@ -1,21 +1,30 @@
 # VoidHaven – Downloads
 
-Hier liegen nur die **fertigen Spieldateien** von VoidHaven (Linux-AppImage) und die
+Hier liegen nur die **fertigen Spieldateien** von VoidHaven (Linux-AppImage, Windows-Testversion) und die
 Update-Datei `latest-linux.yml`. Der Quellcode ist nicht öffentlich.
 
 VoidHaven ist ein Einzelspieler-Weltraumspiel (2D-Steuerung, 3D-Grafik) mit modularen Schiffen,
-fünf Sektoren, Drohnen und Raketen. Alles wird mit Spielwährung freigeschaltet – kein Echtgeld,
+vielen Sektoren, Fraktionen, Drohnen und Raketen. Alles wird mit Spielwährung freigeschaltet – kein Echtgeld,
 keine Konten, kein Online-Zwang.
 
 ## Installation (Linux)
 
-1. Unter **Releases** die Datei `VoidHaven.AppImage` herunterladen und unter einem **festen Namen**
+1. Unter **Releases** die Datei mit der Endung `.AppImage` herunterladen und unter einem **festen Namen**
    speichern, z. B. `~/Spiele/VoidHaven.AppImage`.
 2. Ausführbar machen: `chmod +x ~/Spiele/VoidHaven.AppImage`
 3. Starten (oder in Steam als „Nicht-Steam-Spiel“ hinzufügen).
 
 Das Spiel prüft beim Start im Hintergrund, ob es hier eine neue Version gibt, lädt sie und
 ersetzt die Datei beim Beenden am selben Ort. Ohne Internet startet es ganz normal.
+
+## Windows (Testversion)
+
+1. Unter **Releases** die Datei `VoidHaven-<Version>-portable.exe` herunterladen.
+2. Doppelklick zum Starten – keine Installation nötig.
+3. Windows SmartScreen warnt beim ersten Start („Unbekannter Herausgeber“), weil die Datei nicht
+   signiert ist: **„Weitere Informationen“** → **„Trotzdem ausführen“**.
+
+Die Windows-Version aktualisiert sich **nicht automatisch** – neue Versionen bitte hier erneut herunterladen.
 
 ## Steam-Bilder
 
